@@ -34,19 +34,28 @@ printHeader()
 for y in range(0,map_height):
     for x in range(0,map_width):
         room_name_index = (y * map_width) + x
+#        understand_and = '" and "'
+#        understand_words = room_names[room_name_index].split()
+#        understand_string = 'Understand "' + understand_and.join(understand_words) + '" as ' + room_names[room_name_index] + '.\n'
         rules = {
-            'origin': '#name_of_room.capitalizeAll# is a room. The description of #name_of_room# is "#description#".\n#scenery#',
+            'origin': '#[roomSynonym:#room_synonyms#]origin_after_actions#',
+            'origin_after_actions': '#name_of_room.capitalizeAll# is a room. The description of #name_of_room# is "#description#".\n#understand_string##scenery##fruit_string#',
+            'understand_string': '',#understand_string,
             'name_of_room': room_names[room_name_index],
             #'room_items': random.sample(pycorpora.get_file(category, subcategory)[subcategory], 10),
             'fruit': fruits[room_name_index],
             'fruit_descriptor': ['tantilizing','lonely-looking','moldy','sweet','half-eaten','disgusting','delicious','juicy'],
             'fruit_description': ['That is some #fruit_descriptor# looking #fruit#!','The #fruit# looks #fruit_descriptor#.', 'There are several #fruit_descriptor# #fruit.s# in the #room_basic#.'],
+            'fruit_initial_text': ['There is #fruit.a# here.', 'Curiously, there is #fruit.a# here.'],
+            'fruit_string': ['', '\n#fruit.a.capitalize# is in #name_of_room#. The #fruit# is edible. "#fruit_initial_text#"'],
+            #'scenery': '#fruit.capitalizeAll# is scenery in the #name_of_room.capitalizeAll#. The description of #fruit.capitalizeAll# is "#fruit_description#".',
             'room_synonyms': settings[room_name_index]['synonyms'],
             'room_qualities': settings[room_name_index]['qualities'],
             'room_basic': settings[room_name_index]['name'],
-            'room_modifier': ['might once have been','could almost be', 'is almost certainly','is very likely'],
-            'description': 'This #room_qualities# #room_basic# #room_modifier# #room_synonyms#. There is a #fruit# here.',
-            'scenery': '#fruit.capitalizeAll# is scenery in the #name_of_room.capitalizeAll#. The description of #fruit.capitalizeAll# is "#fruit_description#".',
+            'room_modifier': ['might once have been','could almost be', 'is almost certainly','is very likely', 'might someday be'],
+            'description': 'This #room_qualities# #room_basic# #room_modifier# #roomSynonym.a#.',
+            'scenery_description': ['Obviously, the #room_basic# isn\'t really #roomSynonym.a#.', 'The #room_basic# may look like #roomSynonym.a#, but you see that it\'s not.', 'No, #roomSynonym.a# isn\'t right.'],
+            'scenery': '#roomSynonym.capitalizeAll# is scenery in the #name_of_room.capitalizeAll#. The description of #roomSynonym.capitalizeAll# is "#scenery_description#".',
             'location': ['world', 'solar system', 'galaxy', 'universe']
         }
         printRules(rules)
