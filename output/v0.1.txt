@@ -1,0 +1,41 @@
+"A Randomized Inform Game" by Martin Grider
+
+Include Exit Lister by Gavin Lambert.
+
+Music Cd Dungeon is a room. The description of music CD dungeon is "This trapped dungeon might once have been jail. There is a pomelo here.".
+Pomelo is scenery in the Music Cd Dungeon. The description of Pomelo is "That is some tantilizing looking pomelo!".
+music CD dungeon is west of bottle ocean.
+music CD dungeon is north of lotion shop.
+
+Bottle Ocean is a room. The description of bottle ocean is "This immense ocean is very likely sea. There is a cherimoya here.".
+Cherimoya is scenery in the Bottle Ocean. The description of Cherimoya is "That is some moldy looking cherimoya!".
+bottle ocean is west of empty tin can garden.
+bottle ocean is north of sharpie haven.
+
+Empty Tin Can Garden is a room. The description of empty tin can garden is "This orderly garden is almost certainly park. There is a lime here.".
+Lime is scenery in the Empty Tin Can Garden. The description of Lime is "There are several moldy limes in the garden.".
+empty tin can garden is north of football dawn.
+
+Lotion Shop is a room. The description of lotion shop is "This productive shop could almost be bazaar. There is a blackcurrant here.".
+Blackcurrant is scenery in the Lotion Shop. The description of Blackcurrant is "That is some moldy looking blackcurrant!".
+lotion shop is west of sharpie haven.
+lotion shop is north of safety pin void.
+
+Sharpie Haven is a room. The description of sharpie haven is "This pleasant haven is very likely shelter. There is a guava here.".
+Guava is scenery in the Sharpie Haven. The description of Guava is "The guava looks tantilizing.".
+sharpie haven is west of football dawn.
+sharpie haven is north of toy soldier bridge.
+
+Football Dawn is a room. The description of football dawn is "This safe dawn is almost certainly sunrise. There is a elderberry here.".
+Elderberry is scenery in the Football Dawn. The description of Elderberry is "That is some moldy looking elderberry!".
+football dawn is north of pair of tongs water.
+
+Safety Pin Void is a room. The description of safety pin void is "This quiet void is almost certainly nowhere. There is a boysenberry here.".
+Boysenberry is scenery in the Safety Pin Void. The description of Boysenberry is "There are several sweet boysenberries in the void.".
+safety pin void is west of toy soldier bridge.
+Toy Soldier Bridge is a room. The description of toy soldier bridge is "This joining bridge is almost certainly arch. There is a canary melon here.".
+Canary Melon is scenery in the Toy Soldier Bridge. The description of Canary Melon is "The canary melon looks lonely-looking.".
+toy soldier bridge is west of pair of tongs water.
+Pair Of Tongs Water is a room. The description of pair of tongs water is "This purifying water is almost certainly pool. There is a redcurrant here.".
+Redcurrant is scenery in the Pair Of Tongs Water. The description of Redcurrant is "There are several moldy redcurrants in the water.".
+
