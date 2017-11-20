@@ -26,7 +26,7 @@ def printRules(rules):
 
 def printHeader():
     print '\n\n"A Randomized Inform Game" by Martin Grider\n'
-    print 'Include Exit Lister by Gavin Lambert.\n'
+    print 'Include Exit Lister by Gavin Lambert.'
 
 
 printHeader()
@@ -39,7 +39,7 @@ for y in range(0,map_height):
 #        understand_string = 'Understand "' + understand_and.join(understand_words) + '" as ' + room_names[room_name_index] + '.\n'
         rules = {
             'origin': '#[roomSynonym:#room_synonyms#]origin_after_actions#',
-            'origin_after_actions': '#name_of_room.capitalizeAll# is a room. The description of #name_of_room# is "#description#".\n#understand_string##scenery##fruit_string#',
+            'origin_after_actions': '\n#name_of_room.capitalizeAll# is a room. The description of #name_of_room# is "#description#".\n#understand_string##scenery##fruit_string#',
             'understand_string': '',#understand_string,
             'name_of_room': room_names[room_name_index],
             #'room_items': random.sample(pycorpora.get_file(category, subcategory)[subcategory], 10),
@@ -47,7 +47,7 @@ for y in range(0,map_height):
             'fruit_descriptor': ['tantilizing','lonely-looking','moldy','sweet','half-eaten','disgusting','delicious','juicy'],
             'fruit_description': ['That is some #fruit_descriptor# looking #fruit#!','The #fruit# looks #fruit_descriptor#.', 'There are several #fruit_descriptor# #fruit.s# in the #room_basic#.'],
             'fruit_initial_text': ['There is #fruit.a# here.', 'Curiously, there is #fruit.a# here.'],
-            'fruit_string': ['', '\n#fruit.a.capitalize# is in #name_of_room#. The #fruit# is edible. "#fruit_initial_text#"'],
+            'fruit_string': ['\n#fruit.a.capitalize# is in #name_of_room#. The #fruit# is edible. "#fruit_initial_text#" The description of #fruit# is "#fruit_description#"'],
             #'scenery': '#fruit.capitalizeAll# is scenery in the #name_of_room.capitalizeAll#. The description of #fruit.capitalizeAll# is "#fruit_description#".',
             'room_synonyms': settings[room_name_index]['synonyms'],
             'room_qualities': settings[room_name_index]['qualities'],
@@ -62,9 +62,23 @@ for y in range(0,map_height):
         # only need to do east and south
         if (x < map_width - 1):
             east_index = room_name_index + 1
-            print '%s is west of %s.' % (room_names[room_name_index], room_names[east_index])
+            rule = {
+                'origin': '#room_name.capitalizeAll# is west of #east_room_name.capitalizeAll#.',
+                'room_name': room_names[room_name_index],
+                'east_room_name': room_names[east_index]
+            }
+            printRules(rule)
+            #print '%s is west of %s.' % (room_names[room_name_index], room_names[east_index])
         if (y < map_height - 1):
             south_index = ((y+1) * map_width) + x
-            print '%s is north of %s.\n' % (room_names[room_name_index], room_names[south_index])
+            rule = {
+                'origin': '#room_name.capitalizeAll# is north of #south_room_name.capitalizeAll#.',
+                'room_name': room_names[room_name_index],
+                'south_room_name': room_names[south_index]
+            }
+            printRules(rule)
+            #print '%s is north of %s.\n' % (room_names[room_name_index], room_names[south_index])
+
+
 
 print '\n\n'
