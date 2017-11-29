@@ -1,0 +1,58 @@
+"A Procedurally Generated Inform Game" by Martin Grider
+
+Include Exit Lister by Gavin Lambert.
+Use scoring. The maximum score is 4.
+
+Leg Warmers Island is a room. The description of leg warmers island is "This isolated island might someday be an enclave.".
+Enclave is scenery in the Leg Warmers Island. The description of Enclave is "Obviously, the island isn't really an enclave.".
+A strawberry is in leg warmers island. The strawberry is edible. "Curiously, there is a strawberry here." The description of strawberry is "That is some half-eaten looking strawberry!"
+An Orangered Computer is in Leg Warmers Island. "There is an orangered computer here." The description of Orangered Computer is "The only thing special about orangered computer is that it is really greyish teal."
+An Island Sack is a container in Leg Warmers Island. Island Sack is closed and openable. "There is An island sack here." The description of Island Sack is "The island sack looks like it has room for something inside."
+Every turn:
+    if the Greyish Teal Leg Warmers is in Island Sack:
+        increase the score by 1;
+        now the Greyish Teal Leg Warmers is nowhere;
+        say "You really put that in its place!".
+Leg Warmers Island is west of Computer Cave.
+Leg Warmers Island is north of Toothpaste Dusk.
+
+Computer Cave is a room. The description of computer cave is "This dark cave might someday be a hideout.".
+Hideout is scenery in the Computer Cave. The description of Hideout is "Obviously, the cave isn't really a hideout.".
+A physalis is in computer cave. The physalis is edible. "Curiously, there is a physalis here." The description of physalis is "That is some tantilizing looking physalis!"
+A Light Pea Green Toothpaste is in Computer Cave. "There is a light pea green toothpaste here." The description of Light Pea Green Toothpaste is "The light pea green toothpaste looks like it could fit inside something..."
+A Cave Trunk is a container in Computer Cave. Cave Trunk is closed and openable. "There is A cave trunk here." The description of Cave Trunk is "The cave trunk looks it could fit something in it."
+Every turn:
+    if the Orangered Computer is in Cave Trunk:
+        increase the score by 1;
+        now the Orangered Computer is nowhere;
+        say "You really put that in its place!".
+Computer Cave is north of Rock Road.
+
+Toothpaste Dusk is a room. The description of toothpaste dusk is "This hiding dusk is very likely an evening.".
+Evening is scenery in the Toothpaste Dusk. The description of Evening is "No, an evening isn't right.".
+A durian is in toothpaste dusk. The durian is edible. "Curiously, there is a durian here." The description of durian is "There are several juicy durians in the dusk."
+A Greyish Teal Leg Warmers is in Toothpaste Dusk. "There is a greyish teal leg warmers here." The description of Greyish Teal Leg Warmers is "The greyish teal leg warmers looks like it could fit inside something..."
+A Dusk Teapot is a container in Toothpaste Dusk. Dusk Teapot is closed and openable. "There is A dusk teapot here." The description of Dusk Teapot is "The dusk teapot looks like it has room for something inside."
+Every turn:
+    if the Light Pea Green Toothpaste is in Dusk Teapot:
+        increase the score by 1;
+        now the Light Pea Green Toothpaste is nowhere;
+        say "You really put that in its place!".
+Toothpaste Dusk is west of Rock Road.
+
+Rock Road is a room. The description of rock road is "This mundane road might someday be a trail.".
+Trail is scenery in the Rock Road. The description of Trail is "No, a trail isn't right.".
+A lemon is in rock road. The lemon is edible. "Curiously, there is a lemon here." The description of lemon is "The lemon looks sweet."
+A Leaf Green Rock is in Rock Road. "There is a leaf green rock here." The description of Leaf Green Rock is "The leaf green rock looks like it could fit inside something..."
+A Road Hopper is a container in Rock Road. Road Hopper is closed and openable. "There is A road hopper here." The description of Road Hopper is "That is some road hopper!"
+Every turn:
+    if the Leaf Green Rock is in Road Hopper:
+        increase the score by 1;
+        now the Leaf Green Rock is nowhere;
+        say "You really put that in its place!".
+
+Every turn:
+    if the score is the maximum score: 
+        say "you won!"; 
+        end the story.
+

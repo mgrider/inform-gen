@@ -1,0 +1,58 @@
+"A Procedurally Generated Inform Game" by Martin Grider
+
+Include Exit Lister by Gavin Lambert.
+Use scoring. The maximum score is 4.
+
+Toy Top Void is a room. The description of toy top void is "This quiet void might once have been a nothingness.".
+Nothingness is scenery in the Toy Top Void. The description of Nothingness is "No, a nothingness isn't right.".
+A goji berry is in toy top void. The goji berry is edible. "Curiously, there is a goji berry here." The description of goji berry is "There are several half-eaten goji berries in the void."
+A Twilight Blue Domino Set is in Toy Top Void. "There is a twilight blue domino set here." The description of Twilight Blue Domino Set is "That twilight blue domino set is really quite charcoal."
+A Void Carafe is a container in Toy Top Void. Void Carafe is closed and openable. "There is A void carafe here." The description of Void Carafe is "The void carafe looks it could fit something in it."
+Every turn:
+    if the Charcoal Toy Top is in Void Carafe:
+        increase the score by 1;
+        now the Charcoal Toy Top is nowhere;
+        say "You really put that in its place!".
+Toy Top Void is west of Butter Knife Bridge.
+Toy Top Void is north of Helmet Tower.
+
+Butter Knife Bridge is a room. The description of butter knife bridge is "This joining bridge could almost be a connection.".
+Connection is scenery in the Butter Knife Bridge. The description of Connection is "The bridge may look like a connection, but you see that it's not.".
+A mulberry is in butter knife bridge. The mulberry is edible. "There is a mulberry here." The description of mulberry is "The mulberry looks half-eaten."
+A Hospital Green Helmet is in Butter Knife Bridge. "There is a hospital green helmet here." The description of Hospital Green Helmet is "The only thing special about hospital green helmet is that it is really greenish beige."
+A Bridge Pyramid is a container in Butter Knife Bridge. Bridge Pyramid is closed and openable. "There is A bridge pyramid here." The description of Bridge Pyramid is "The bridge pyramid looks it could fit something in it."
+Every turn:
+    if the Greenish Beige Butter Knife is in Bridge Pyramid:
+        increase the score by 1;
+        now the Greenish Beige Butter Knife is nowhere;
+        say "You really put that in its place!".
+Butter Knife Bridge is north of Domino Set Island.
+
+Helmet Tower is a room. The description of helmet tower is "This lofty tower is very likely a pillar.".
+Pillar is scenery in the Helmet Tower. The description of Pillar is "No, a pillar isn't right.".
+A star fruit is in helmet tower. The star fruit is edible. "There is a star fruit here." The description of star fruit is "The star fruit looks delicious."
+A Greenish Beige Butter Knife is in Helmet Tower. "There is a greenish beige butter knife here." The description of Greenish Beige Butter Knife is "The greenish beige butter knife looks like it could fit inside something..."
+A Tower Cabinet is a container in Helmet Tower. Tower Cabinet is closed and openable. "There is A tower cabinet here." The description of Tower Cabinet is "The tower cabinet looks like it has room for something inside."
+Every turn:
+    if the Hospital Green Helmet is in Tower Cabinet:
+        increase the score by 1;
+        now the Hospital Green Helmet is nowhere;
+        say "You really put that in its place!".
+Helmet Tower is west of Domino Set Island.
+
+Domino Set Island is a room. The description of domino set island is "This safe island is very likely a boat.".
+Boat is scenery in the Domino Set Island. The description of Boat is "Obviously, the island isn't really a boat.".
+A blood orange is in domino set island. The blood orange is edible. "There is a blood orange here." The description of blood orange is "That is some moldy looking blood orange!"
+A Charcoal Toy Top is in Domino Set Island. "There is a charcoal toy top here." The description of Charcoal Toy Top is "That charcoal toy top is really quite twilight blue."
+An Island Goblet is a container in Domino Set Island. Island Goblet is closed and openable. "There is An island goblet here." The description of Island Goblet is "The island goblet looks like it has room for something inside."
+Every turn:
+    if the Twilight Blue Domino Set is in Island Goblet:
+        increase the score by 1;
+        now the Twilight Blue Domino Set is nowhere;
+        say "You really put that in its place!".
+
+Every turn:
+    if the score is the maximum score: 
+        say "you won!"; 
+        end the story.
+
