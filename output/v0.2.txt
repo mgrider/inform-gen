@@ -1,0 +1,57 @@
+"A Randomized Inform Game" by Martin Grider
+
+Include Exit Lister by Gavin Lambert. Use scoring. The maximum score is 2.
+
+Monitor Bridge is a room. The description of monitor bridge is "This joining bridge might once have been a connection.".
+Connection is scenery in the Monitor Bridge. The description of Connection is "The bridge may look like a connection, but you see that it's not.".
+A feijoa is in monitor bridge. The feijoa is edible. "There is a feijoa here." The description of feijoa is "The feijoa looks disgusting."
+Monitor Bridge is west of Miniature Portrait Forest.
+Monitor Bridge is north of Coffee Pot Fortress.
+
+A f3 is a container in monitor bridge. The f3 is closed and openable. "There is a surprisingly large f3 here." [The description of f3 is "You would look closer but it might hurt."]
+
+Every turn:
+    if the feijoa is in f3:
+        increase the score by 1;
+        now the feijoa is nowhere;
+        say "you dropped it real good!".
+
+Every turn:
+    if the score is the maximum score:
+        say "you won!";
+        end the story.
+
+[A StupidObject is a kind of thing. Some StupidObjects in the Monitor Bridge are defined by the Table of StupidObjectThings.
+After dropping a StupidObject:
+[   Let X be a StupidObject in the Table of StupidObjectThings;]
+    If the Player is in a room with the name StupidPlace:
+        say StupidDescription.
+        
+Table of StupidObjectThings
+StupidObjectStupidPlaceStupidDescription
+blahMonitor Bridge"You dropped it stupidly."
+]
+
+
+Miniature Portrait Forest is a room. The description of miniature portrait forest is "This tangled forest is very likely a wilderness.".
+Wilderness is scenery in the Miniature Portrait Forest. The description of Wilderness is "Obviously, the forest isn't really a wilderness.".
+A mandarine is in miniature portrait forest. The mandarine is edible. "There is a mandarine here." The description of mandarine is "The mandarine looks half-eaten."
+Miniature Portrait Forest is north of Microphone Road.
+
+A f4 is a container in miniature portrait forest. The f4 is closed and openable. "There is a surprisingly large f4 here." The description of f4 is "You would look closer but it might hurt."
+
+Every turn:
+    if the mandarine is in f4:
+        increase the score by 1;
+        now the mandarine is fixed in place;
+        say "you ate it up!".
+
+Coffee Pot Fortress is a room. The description of coffee pot fortress is "This protected fortress might once have been a hold.".
+Hold is scenery in the Coffee Pot Fortress. The description of Hold is "Obviously, the fortress isn't really a hold.".
+A blackberry is in coffee pot fortress. The blackberry is edible. "There is a blackberry here." The description of blackberry is "There are several tantilizing blackberries in the fortress."
+Coffee Pot Fortress is west of Microphone Road.
+
+Microphone Road is a room. The description of microphone road is "This mundane road could almost be a street.".
+Street is scenery in the Microphone Road. The description of Street is "Obviously, the road isn't really a street.".
+A passionfruit is in microphone road. The passionfruit is edible. "Curiously, there is a passionfruit here." The description of passionfruit is "The passionfruit looks disgusting."
+

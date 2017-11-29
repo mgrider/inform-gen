@@ -1,0 +1,5 @@
+#!/usr/bin/python
+
+containers = ['Amphora','ampule','backpack','bag','baggage','barrel','basin','basket','beaker','bin','bottle', 'bowl', 'box', 'briefcase', 'bucket', 'cabinet', 'can', 'canister', 'canteen', 'carafe', 'carrier', 'carryall', 'cart', 'carton', 'case', 'cask', 'casket', 'chest', 'Christmas stocking', 'coffer', 'cone', 'container', 'compote', 'cooler', 'crate', 'crock', 'cruet', 'cube', 'cup', 'depository', 'dish', 'drawer', 'drum', 'dustbin', 'enclosure', 'envelope', 'ewer', 'flask', 'folder', 'glass', 'goblet', 'hamper', 'handbag', 'holder', 'hopper', 'hutch', 'jar', 'jug', 'knapsack', 'locker', 'luggage', 'lunchbox', 'matchbox', 'cylinder', 'modular', 'mug', 'nesting', 'packet', 'pail', 'pan', 'paper', 'plate', 'pocket', 'pod', 'pot', 'pouch', 'purse', 'pyramid', 'rack', 'receptacle', 'rucksack', 'sack', 'saddlebag', 'safe', 'satchel', 'saucer', 'sleeve', 'stein', 'suitcase', 'teapot', 'tin', 'tote', 'trunk', 'tray', 'tub', 'tube', 'Tupperware', 'Tureen', 'underbed', 'urn', 'vase', 'vat', 'vault', 'vesicle', 'vessel', 'vial', 'wastebasket'];
+
+

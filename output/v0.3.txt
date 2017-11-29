@@ -1,0 +1,145 @@
+
+
+
+A Procedurally Generated Inform Game
+An Interactive Fiction by Martin Grider
+Release 1 / Serial number 171129 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Leg Warmers Island
+This isolated island might someday be an enclave.
+
+Curiously, there is a strawberry here.
+
+There is an orangered computer here.
+
+There is An island sack here.
+
+You can go south and east from here.
+
+>g computer
+You can hardly repeat that.
+
+>get computer
+Taken.
+
+>s
+
+Toothpaste Dusk
+This hiding dusk is very likely an evening.
+
+Curiously, there is a durian here.
+
+There is a greyish teal leg warmers here.
+
+There is A dusk teapot here.
+
+You can go north to Leg Warmers Island and east from here.
+
+>get leg warmers
+Taken.
+
+>n
+
+Leg Warmers Island
+This isolated island might someday be an enclave.
+
+Curiously, there is a strawberry here.
+
+There is An island sack here.
+
+You can go south to Toothpaste Dusk and east from here.
+
+>open sack
+You open the Island Sack.
+
+>put leg warmers in sack
+You put the Greyish Teal Leg Warmers into the Island Sack.
+
+You really put that in its place!
+
+[Your score has just gone up by one point.]
+
+>e
+
+Computer Cave
+This dark cave might someday be a hideout.
+
+Curiously, there is a physalis here.
+
+There is a light pea green toothpaste here.
+
+There is A cave trunk here.
+
+You can go south and west to Leg Warmers Island from here.
+
+>get toothpaste
+Taken.
+
+>open trunk
+You open the Cave Trunk.
+
+>put computer in trunk
+You put the Orangered Computer into the Cave Trunk.
+
+You really put that in its place!
+
+[Your score has just gone up by one point.]
+
+>s
+
+Rock Road
+This mundane road might someday be a trail.
+
+Curiously, there is a lemon here.
+
+There is a leaf green rock here.
+
+There is A road hopper here.
+
+You can go north to Computer Cave and west to Toothpaste Dusk from here.
+
+>get rock
+Taken.
+
+>open road
+You open the Road Hopper.
+
+>put rock in road
+You put the Leaf Green Rock into the Road Hopper.
+
+You really put that in its place!
+
+[Your score has just gone up by one point.]
+
+>w
+
+Toothpaste Dusk
+This hiding dusk is very likely an evening.
+
+Curiously, there is a durian here.
+
+There is A dusk teapot here.
+
+You can go north to Leg Warmers Island and east to Rock Road from here.
+
+>i
+You are carrying:
+  a Light Pea Green Toothpaste
+
+>open teapot
+You open the Dusk Teapot.
+
+>put toothpaste in teapot
+You put the Light Pea Green Toothpaste into the Dusk Teapot.
+
+You really put that in its place!
+
+you won!
+
+
+
+    *** The End ***
+
+
+In that game you scored 4 out of a possible 4, in 18 turns.
+
