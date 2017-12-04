@@ -1,0 +1,329 @@
+
+
+"A Procedurally Generated Inform Game" by Martin Grider
+
+Include Exit Lister by Gavin Lambert.
+Use scoring. The maximum score is 25.
+
+Face Wash Island is a room. The description of face wash island is "This isolated island might someday be an airplane.".
+Airplane is scenery in the Face Wash Island. The description of Airplane is "The island may look like an airplane, but you see that it's not.".
+A rambutan is in face wash island. The rambutan is edible. "Curiously, there is a rambutan here." The description of rambutan is "That is some delicious looking rambutan!"
+A Coffee Rolling Pin is in Face Wash Island. "There is a coffee rolling pin here." The description of Coffee Rolling Pin is "The only thing special about coffee rolling pin is that it is really drab green."
+An Island Drawer is a container in Face Wash Island. Island Drawer is closed and openable. "There is An island drawer here." The description of Island Drawer is "That is some island drawer!"
+Every turn:
+	if the Drab Green Face Wash is in Island Drawer:
+		increase the score by 1;
+		now the Drab Green Face Wash is nowhere;
+		say "You really put that in its place!".
+Face Wash Island is west of Class Ring Shore.
+Face Wash Island is north of Couch Shop.
+
+Class Ring Shore is a room. The description of class ring shore is "This impeding shore could almost be a cliff.".
+Cliff is scenery in the Class Ring Shore. The description of Cliff is "No, a cliff isn't right.".
+A fig is in class ring shore. The fig is edible. "There is a fig here." The description of fig is "There are several disgusting figs in the shore."
+A Greyish Blue Book Of Matches is in Class Ring Shore. "There is a greyish blue book of matches here." The description of Greyish Blue Book Of Matches is "The greyish blue book of matches looks like it could fit inside something..."
+A Shore Bucket is a container in Class Ring Shore. Shore Bucket is closed and openable. "There is A shore bucket here." The description of Shore Bucket is "That is some shore bucket!"
+Every turn:
+	if the Reddish Grey Class Ring is in Shore Bucket:
+		increase the score by 1;
+		now the Reddish Grey Class Ring is nowhere;
+		say "You really put that in its place!".
+Class Ring Shore is west of Coffee Pot Day.
+Class Ring Shore is north of Football Forest.
+
+Coffee Pot Day is a room. The description of coffee pot day is "This productive day might someday be a sunlight.".
+Sunlight is scenery in the Coffee Pot Day. The description of Sunlight is "No, a sunlight isn't right.".
+A nut is in coffee pot day. The nut is edible. "There is a nut here." The description of nut is "The nut looks delicious."
+A Cool Grey Chicken is in Coffee Pot Day. "There is a cool grey chicken here." The description of Cool Grey Chicken is "The cool grey chicken looks like it could fit inside something..."
+A Day Carrier is a container in Coffee Pot Day. Day Carrier is closed and openable. "There is A day carrier here." The description of Day Carrier is "The day carrier looks like it has room for something inside."
+Every turn:
+	if the Dark Grey Blue Coffee Pot is in Day Carrier:
+		increase the score by 1;
+		now the Dark Grey Blue Coffee Pot is nowhere;
+		say "You really put that in its place!".
+Coffee Pot Day is west of Book Of Matches Haven.
+Coffee Pot Day is north of Rolling Pin Cave.
+
+Book Of Matches Haven is a room. The description of book of matches haven is "This peaceful haven is almost certainly a home.".
+Home is scenery in the Book Of Matches Haven. The description of Home is "The haven may look like a home, but you see that it's not.".
+A raisin is in book of matches haven. The raisin is edible. "Curiously, there is a raisin here." The description of raisin is "That is some half-eaten looking raisin!"
+An Iris Grocery List is in Book Of Matches Haven. "There is an iris grocery list here." The description of Iris Grocery List is "The iris grocery list looks like it could fit inside something..."
+A Haven Pail is a container in Book Of Matches Haven. Haven Pail is closed and openable. "There is A haven pail here." The description of Haven Pail is "The haven pail looks like it has room for something inside."
+Every turn:
+	if the Greyish Blue Book Of Matches is in Haven Pail:
+		increase the score by 1;
+		now the Greyish Blue Book Of Matches is nowhere;
+		say "You really put that in its place!".
+Book Of Matches Haven is west of Money Library.
+Book Of Matches Haven is north of Model Car Garden.
+
+Money Library is a room. The description of money library is "This enlightening library might someday be a study.".
+Study is scenery in the Money Library. The description of Study is "Obviously, the library isn't really a study.".
+A cantaloupe is in money library. The cantaloupe is edible. "There is a cantaloupe here." The description of cantaloupe is "There are several tantilizing cantaloupes in the library."
+A White Roll Of Masking Tape is in Money Library. "There is a white roll of masking tape here." The description of White Roll Of Masking Tape is "The only thing special about white roll of masking tape is that it is really sky blue."
+A Library Pot is a container in Money Library. Library Pot is closed and openable. "There is A library pot here." The description of Library Pot is "That is some library pot!"
+Every turn:
+	if the Sky Blue Money is in Library Pot:
+		increase the score by 1;
+		now the Sky Blue Money is nowhere;
+		say "You really put that in its place!".
+Money Library is north of Letter Opener Dusk.
+
+Couch Shop is a room. The description of couch shop is "This productive shop is very likely a market.".
+Market is scenery in the Couch Shop. The description of Market is "No, a market isn't right.".
+A huckleberry is in couch shop. The huckleberry is edible. "There is a huckleberry here." The description of huckleberry is "There are several lonely-looking huckleberries in the shop."
+A Slate Coffee Mug is in Couch Shop. "There is a slate coffee mug here." The description of Slate Coffee Mug is "The slate coffee mug looks like it could fit inside something..."
+A Shop Jar is a container in Couch Shop. Shop Jar is closed and openable. "There is A shop jar here." The description of Shop Jar is "That is some shop jar!"
+Every turn:
+	if the Puce Couch is in Shop Jar:
+		increase the score by 1;
+		now the Puce Couch is nowhere;
+		say "You really put that in its place!".
+Couch Shop is west of Football Forest.
+Couch Shop is north of Box Of Crayons Bridge.
+
+Football Forest is a room. The description of football forest is "This uncontrollable forest is very likely a wilderness.".
+Wilderness is scenery in the Football Forest. The description of Wilderness is "No, a wilderness isn't right.".
+A tomato is in football forest. The tomato is edible. "There is a tomato here." The description of tomato is "The tomato looks tantilizing."
+A Reddish Grey Class Ring is in Football Forest. "There is a reddish grey class ring here." The description of Reddish Grey Class Ring is "That reddish grey class ring is really quite pale."
+A Forest Satchel is a container in Football Forest. Forest Satchel is closed and openable. "There is A forest satchel here." The description of Forest Satchel is "The forest satchel looks like it has room for something inside."
+Every turn:
+	if the Pale Football is in Forest Satchel:
+		increase the score by 1;
+		now the Pale Football is nowhere;
+		say "You really put that in its place!".
+Football Forest is west of Rolling Pin Cave.
+Football Forest is north of Slipper River.
+
+Rolling Pin Cave is a room. The description of rolling pin cave is "This dangerous cave is very likely a hideout.".
+Hideout is scenery in the Rolling Pin Cave. The description of Hideout is "Obviously, the cave isn't really a hideout.".
+A cranberry is in rolling pin cave. The cranberry is edible. "There is a cranberry here." The description of cranberry is "That is some disgusting looking cranberry!"
+A Drab Green Face Wash is in Rolling Pin Cave. "There is a drab green face wash here." The description of Drab Green Face Wash is "The drab green face wash looks like it could fit inside something..."
+A Cave Mug is a container in Rolling Pin Cave. Cave Mug is closed and openable. "There is A cave mug here." The description of Cave Mug is "The cave mug looks it could fit something in it."
+Every turn:
+	if the Coffee Rolling Pin is in Cave Mug:
+		increase the score by 1;
+		now the Coffee Rolling Pin is nowhere;
+		say "You really put that in its place!".
+Rolling Pin Cave is west of Model Car Garden.
+Rolling Pin Cave is north of Fishing Hook Office.
+
+Model Car Garden is a room. The description of model car garden is "This safe garden might once have been a park.".
+Park is scenery in the Model Car Garden. The description of Park is "The garden may look like a park, but you see that it's not.".
+A damson is in model car garden. The damson is edible. "Curiously, there is a damson here." The description of damson is "There are several half-eaten damsons in the garden."
+A Purple Red Stop Sign is in Model Car Garden. "There is a purple red stop sign here." The description of Purple Red Stop Sign is "The only thing special about purple red stop sign is that it is really tan."
+A Garden Cube is a container in Model Car Garden. Garden Cube is closed and openable. "There is A garden cube here." The description of Garden Cube is "The garden cube looks it could fit something in it."
+Every turn:
+	if the Tan Model Car is in Garden Cube:
+		increase the score by 1;
+		now the Tan Model Car is nowhere;
+		say "You really put that in its place!".
+Model Car Garden is west of Letter Opener Dusk.
+Model Car Garden is north of Lighter Crossroads.
+
+Letter Opener Dusk is a room. The description of letter opener dusk is "This hiding dusk might someday be a sunset.".
+Sunset is scenery in the Letter Opener Dusk. The description of Sunset is "The dusk may look like a sunset, but you see that it's not.".
+A guava is in letter opener dusk. The guava is edible. "Curiously, there is a guava here." The description of guava is "There are several sweet guavas in the dusk."
+A Bright Violet Fishing Hook is in Letter Opener Dusk. "There is a bright violet fishing hook here." The description of Bright Violet Fishing Hook is "The bright violet fishing hook looks like it could fit inside something..."
+A Dusk Cylinder is a container in Letter Opener Dusk. Dusk Cylinder is closed and openable. "There is A dusk cylinder here." The description of Dusk Cylinder is "That is some dusk cylinder!"
+Every turn:
+	if the Chestnut Letter Opener is in Dusk Cylinder:
+		increase the score by 1;
+		now the Chestnut Letter Opener is nowhere;
+		say "You really put that in its place!".
+Letter Opener Dusk is north of Button Tavern.
+
+Box Of Crayons Bridge is a room. The description of box of crayons bridge is "This connecting bridge might once have been a walkway.".
+Walkway is scenery in the Box Of Crayons Bridge. The description of Walkway is "The bridge may look like a walkway, but you see that it's not.".
+A pomelo is in box of crayons bridge. The pomelo is edible. "There is a pomelo here." The description of pomelo is "The pomelo looks juicy."
+A Deep Lilac Rubber Duck is in Box Of Crayons Bridge. "There is a deep lilac rubber duck here." The description of Deep Lilac Rubber Duck is "The deep lilac rubber duck looks like it could fit inside something..."
+A Bridge Vesicle is a container in Box Of Crayons Bridge. Bridge Vesicle is closed and openable. "There is A bridge vesicle here." The description of Bridge Vesicle is "The bridge vesicle looks like it has room for something inside."
+Every turn:
+	if the Creme Box Of Crayons is in Bridge Vesicle:
+		increase the score by 1;
+		now the Creme Box Of Crayons is nowhere;
+		say "You really put that in its place!".
+Box Of Crayons Bridge is west of Slipper River.
+Box Of Crayons Bridge is north of Grocery List Plaza.
+
+Slipper River is a room. The description of slipper river is "This dangerous river is almost certainly a creek.".
+Creek is scenery in the Slipper River. The description of Creek is "The river may look like a creek, but you see that it's not.".
+A cloudberry is in slipper river. The cloudberry is edible. "There is a cloudberry here." The description of cloudberry is "That is some sweet looking cloudberry!"
+A Chestnut Letter Opener is in Slipper River. "There is a chestnut letter opener here." The description of Chestnut Letter Opener is "The only thing special about chestnut letter opener is that it is really dark mint."
+A River Luggage is a container in Slipper River. River Luggage is closed and openable. "There is A river luggage here." The description of River Luggage is "That is some river luggage!"
+Every turn:
+	if the Dark Mint Slipper is in River Luggage:
+		increase the score by 1;
+		now the Dark Mint Slipper is nowhere;
+		say "You really put that in its place!".
+Slipper River is west of Fishing Hook Office.
+Slipper River is north of Stop Sign Tower.
+
+Fishing Hook Office is a room. The description of fishing hook office is "This productive office is almost certainly a workshop.".
+Workshop is scenery in the Fishing Hook Office. The description of Workshop is "Obviously, the office isn't really a workshop.".
+A cucumber is in fishing hook office. The cucumber is edible. "Curiously, there is a cucumber here." The description of cucumber is "There are several sweet cucumbers in the office."
+An Apple Green Button is in Fishing Hook Office. "There is an apple green button here." The description of Apple Green Button is "The apple green button looks like it could fit inside something..."
+An Office Depository is a container in Fishing Hook Office. Office Depository is closed and openable. "There is An office depository here." The description of Office Depository is "That is some office depository!"
+Every turn:
+	if the Bright Violet Fishing Hook is in Office Depository:
+		increase the score by 1;
+		now the Bright Violet Fishing Hook is nowhere;
+		say "You really put that in its place!".
+Fishing Hook Office is west of Lighter Crossroads.
+Fishing Hook Office is north of Coffee Mug Dungeon.
+
+Lighter Crossroads is a room. The description of lighter crossroads is "This thoughtful crossroads is very likely a fork.".
+Fork is scenery in the Lighter Crossroads. The description of Fork is "Obviously, the crossroads isn't really a fork.".
+A mango is in lighter crossroads. The mango is edible. "There is a mango here." The description of mango is "There are several tantilizing mangos in the crossroads."
+A Puce Couch is in Lighter Crossroads. "There is a puce couch here." The description of Puce Couch is "That puce couch is really quite lighter green."
+A Crossroads Sack is a container in Lighter Crossroads. Crossroads Sack is closed and openable. "There is A crossroads sack here." The description of Crossroads Sack is "The crossroads sack looks like it has room for something inside."
+Every turn:
+	if the Lighter Green Lighter is in Crossroads Sack:
+		increase the score by 1;
+		now the Lighter Green Lighter is nowhere;
+		say "You really put that in its place!".
+Lighter Crossroads is west of Button Tavern.
+Lighter Crossroads is north of Chicken Fortress.
+
+Button Tavern is a room. The description of button tavern is "This educational tavern is very likely a bar.".
+Bar is scenery in the Button Tavern. The description of Bar is "Obviously, the tavern isn't really a bar.".
+A pineapple is in button tavern. The pineapple is edible. "Curiously, there is a pineapple here." The description of pineapple is "There are several sweet pineapples in the tavern."
+A Sky Blue Money is in Button Tavern. "There is a sky blue money here." The description of Sky Blue Money is "The only thing special about sky blue money is that it is really apple green."
+A Tavern Drum is a container in Button Tavern. Tavern Drum is closed and openable. "There is A tavern drum here." The description of Tavern Drum is "The tavern drum looks it could fit something in it."
+Every turn:
+	if the Apple Green Button is in Tavern Drum:
+		increase the score by 1;
+		now the Apple Green Button is nowhere;
+		say "You really put that in its place!".
+Button Tavern is north of Roll Of Masking Tape Night.
+
+Grocery List Plaza is a room. The description of grocery list plaza is "This exposed plaza could almost be a field.".
+Field is scenery in the Grocery List Plaza. The description of Field is "No, a field isn't right.".
+A dragonfruit is in grocery list plaza. The dragonfruit is edible. "There is a dragonfruit here." The description of dragonfruit is "That is some lonely-looking looking dragonfruit!"
+A Dark Mint Slipper is in Grocery List Plaza. "There is a dark mint slipper here." The description of Dark Mint Slipper is "That dark mint slipper is really quite iris."
+A Plaza Hutch is a container in Grocery List Plaza. Plaza Hutch is closed and openable. "There is A plaza hutch here." The description of Plaza Hutch is "The plaza hutch looks like it has room for something inside."
+Every turn:
+	if the Iris Grocery List is in Plaza Hutch:
+		increase the score by 1;
+		now the Iris Grocery List is nowhere;
+		say "You really put that in its place!".
+Grocery List Plaza is west of Stop Sign Tower.
+Grocery List Plaza is north of Kitchen Knife Road.
+
+Stop Sign Tower is a room. The description of stop sign tower is "This thoughtful tower is almost certainly a lookout.".
+Lookout is scenery in the Stop Sign Tower. The description of Lookout is "No, a lookout isn't right.".
+A jackfruit is in stop sign tower. The jackfruit is edible. "Curiously, there is a jackfruit here." The description of jackfruit is "There are several delicious jackfruits in the tower."
+A Dark Grey Blue Coffee Pot is in Stop Sign Tower. "There is a dark grey blue coffee pot here." The description of Dark Grey Blue Coffee Pot is "That dark grey blue coffee pot is really quite purple red."
+A Tower Tureen is a container in Stop Sign Tower. Tower Tureen is closed and openable. "There is A tower Tureen here." The description of Tower Tureen is "The tower Tureen looks like it has room for something inside."
+Every turn:
+	if the Purple Red Stop Sign is in Tower Tureen:
+		increase the score by 1;
+		now the Purple Red Stop Sign is nowhere;
+		say "You really put that in its place!".
+Stop Sign Tower is west of Coffee Mug Dungeon.
+Stop Sign Tower is north of Safety Pin Dawn.
+
+Coffee Mug Dungeon is a room. The description of coffee mug dungeon is "This hopeless dungeon might someday be a pit.".
+Pit is scenery in the Coffee Mug Dungeon. The description of Pit is "No, a pit isn't right.".
+A currant is in coffee mug dungeon. The currant is edible. "Curiously, there is a currant here." The description of currant is "That is some lonely-looking looking currant!"
+A Bright Yellow Green Safety Pin is in Coffee Mug Dungeon. "There is a bright yellow green safety pin here." The description of Bright Yellow Green Safety Pin is "The bright yellow green safety pin looks like it could fit inside something..."
+A Dungeon Vial is a container in Coffee Mug Dungeon. Dungeon Vial is closed and openable. "There is A dungeon vial here." The description of Dungeon Vial is "That is some dungeon vial!"
+Every turn:
+	if the Slate Coffee Mug is in Dungeon Vial:
+		increase the score by 1;
+		now the Slate Coffee Mug is nowhere;
+		say "You really put that in its place!".
+Coffee Mug Dungeon is west of Chicken Fortress.
+Coffee Mug Dungeon is north of Acorn Labyrinth.
+
+Chicken Fortress is a room. The description of chicken fortress is "This strong fortress could almost be a castle.".
+Castle is scenery in the Chicken Fortress. The description of Castle is "No, a castle isn't right.".
+A goji berry is in chicken fortress. The goji berry is edible. "There is a goji berry here." The description of goji berry is "The goji berry looks moldy."
+A Neon Yellow Kitchen Knife is in Chicken Fortress. "There is a neon yellow kitchen knife here." The description of Neon Yellow Kitchen Knife is "The neon yellow kitchen knife looks like it could fit inside something..."
+A Fortress Crock is a container in Chicken Fortress. Fortress Crock is closed and openable. "There is A fortress crock here." The description of Fortress Crock is "The fortress crock looks it could fit something in it."
+Every turn:
+	if the Cool Grey Chicken is in Fortress Crock:
+		increase the score by 1;
+		now the Cool Grey Chicken is nowhere;
+		say "You really put that in its place!".
+Chicken Fortress is west of Roll Of Masking Tape Night.
+Chicken Fortress is north of Wristwatch Church.
+
+Roll Of Masking Tape Night is a room. The description of roll of masking tape night is "This mysterious night could almost be a twilight.".
+Twilight is scenery in the Roll Of Masking Tape Night. The description of Twilight is "Obviously, the night isn't really a twilight.".
+A canary melon is in roll of masking tape night. The canary melon is edible. "Curiously, there is a canary melon here." The description of canary melon is "That is some sweet looking canary melon!"
+A Pastel Red Acorn is in Roll Of Masking Tape Night. "There is a pastel red acorn here." The description of Pastel Red Acorn is "That pastel red acorn is really quite white."
+A Night Tote is a container in Roll Of Masking Tape Night. Night Tote is closed and openable. "There is A night tote here." The description of Night Tote is "The night tote looks it could fit something in it."
+Every turn:
+	if the White Roll Of Masking Tape is in Night Tote:
+		increase the score by 1;
+		now the White Roll Of Masking Tape is nowhere;
+		say "You really put that in its place!".
+Roll Of Masking Tape Night is north of Rubber Duck Water.
+
+Kitchen Knife Road is a room. The description of kitchen knife road is "This moving road might once have been a lane.".
+Lane is scenery in the Kitchen Knife Road. The description of Lane is "The road may look like a lane, but you see that it's not.".
+A salal berry is in kitchen knife road. The salal berry is edible. "There is a salal berry here." The description of salal berry is "There are several lonely-looking salal berries in the road."
+A Creme Box Of Crayons is in Kitchen Knife Road. "There is a creme box of crayons here." The description of Creme Box Of Crayons is "That creme box of crayons is really quite neon yellow."
+A Road Can is a container in Kitchen Knife Road. Road Can is closed and openable. "There is A road can here." The description of Road Can is "The road can looks it could fit something in it."
+Every turn:
+	if the Neon Yellow Kitchen Knife is in Road Can:
+		increase the score by 1;
+		now the Neon Yellow Kitchen Knife is nowhere;
+		say "You really put that in its place!".
+Kitchen Knife Road is west of Safety Pin Dawn.
+
+Safety Pin Dawn is a room. The description of safety pin dawn is "This emerging dawn might someday be a morning.".
+Morning is scenery in the Safety Pin Dawn. The description of Morning is "The dawn may look like a morning, but you see that it's not.".
+A strawberry is in safety pin dawn. The strawberry is edible. "Curiously, there is a strawberry here." The description of strawberry is "The strawberry looks half-eaten."
+A Tan Model Car is in Safety Pin Dawn. "There is a tan model car here." The description of Tan Model Car is "The only thing special about tan model car is that it is really bright yellow green."
+A Dawn Packet is a container in Safety Pin Dawn. Dawn Packet is closed and openable. "There is A dawn packet here." The description of Dawn Packet is "That is some dawn packet!"
+Every turn:
+	if the Bright Yellow Green Safety Pin is in Dawn Packet:
+		increase the score by 1;
+		now the Bright Yellow Green Safety Pin is nowhere;
+		say "You really put that in its place!".
+Safety Pin Dawn is west of Acorn Labyrinth.
+
+Acorn Labyrinth is a room. The description of acorn labyrinth is "This challenging labyrinth might someday be a maze.".
+Maze is scenery in the Acorn Labyrinth. The description of Maze is "No, a maze isn't right.".
+An olive is in acorn labyrinth. The olive is edible. "There is an olive here." The description of olive is "The olive looks moldy."
+A Pale Football is in Acorn Labyrinth. "There is a pale football here." The description of Pale Football is "The only thing special about pale football is that it is really pastel red."
+A Labyrinth Briefcase is a container in Acorn Labyrinth. Labyrinth Briefcase is closed and openable. "There is A labyrinth briefcase here." The description of Labyrinth Briefcase is "The labyrinth briefcase looks it could fit something in it."
+Every turn:
+	if the Pastel Red Acorn is in Labyrinth Briefcase:
+		increase the score by 1;
+		now the Pastel Red Acorn is nowhere;
+		say "You really put that in its place!".
+Acorn Labyrinth is west of Wristwatch Church.
+
+Wristwatch Church is a room. The description of wristwatch church is "This welcoming church could almost be a temple.".
+Temple is scenery in the Wristwatch Church. The description of Temple is "Obviously, the church isn't really a temple.".
+A banana is in wristwatch church. The banana is edible. "Curiously, there is a banana here." The description of banana is "That is some half-eaten looking banana!"
+A Lighter Green Lighter is in Wristwatch Church. "There is a lighter green lighter here." The description of Lighter Green Lighter is "The lighter green lighter looks like it could fit inside something..."
+A Church Cruet is a container in Wristwatch Church. Church Cruet is closed and openable. "There is A church cruet here." The description of Church Cruet is "The church cruet looks it could fit something in it."
+Every turn:
+	if the Taupe Wristwatch is in Church Cruet:
+		increase the score by 1;
+		now the Taupe Wristwatch is nowhere;
+		say "You really put that in its place!".
+Wristwatch Church is west of Rubber Duck Water.
+
+Rubber Duck Water is a room. The description of rubber duck water is "This spiritual water is almost certainly a pool.".
+Pool is scenery in the Rubber Duck Water. The description of Pool is "The water may look like a pool, but you see that it's not.".
+An avocado is in rubber duck water. The avocado is edible. "Curiously, there is an avocado here." The description of avocado is "The avocado looks tantilizing."
+A Taupe Wristwatch is in Rubber Duck Water. "There is a taupe wristwatch here." The description of Taupe Wristwatch is "That taupe wristwatch is really quite deep lilac."
+A Water Hamper is a container in Rubber Duck Water. Water Hamper is closed and openable. "There is A water hamper here." The description of Water Hamper is "The water hamper looks like it has room for something inside."
+Every turn:
+	if the Deep Lilac Rubber Duck is in Water Hamper:
+		increase the score by 1;
+		now the Deep Lilac Rubber Duck is nowhere;
+		say "You really put that in its place!".
+
+Every turn:
+	if the score is the maximum score: 
+		say "you won!"; 
+		end the story.
+
+
+
