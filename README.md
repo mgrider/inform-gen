@@ -1,6 +1,8 @@
 # inform-gen
 
-This is a public repo for my procedurally generated (proc-gen) inform project. I'm probably submitting this to #NaNoGenMo and ProcJam.
+This is a public repo for my procedurally generated (proc-gen) inform project. It was created in November 2017, with the intent to submit it to #NaNoGenMo and ProcJam.
+
+There is more detail here: https://github.com/NaNoGenMo/2017/issues/89 ...as well as on my blog here: http://chesstris.com/2017/12/04/procjam-and-nanogenmo-postmortem/
 
 
 # install / requirements
